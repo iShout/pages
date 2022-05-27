@@ -9,7 +9,7 @@
     >
       <section class="main-page absolute">
         <header class="top-title">
-          <p style="font-size: 32px;color: #52AFE9;">
+          <p style="font-size: 32px; color: #52afe9; text-align: center">
             这里本来是一个title,但是涉及到项目名称所以删掉了
           </p>
         </header>
@@ -71,7 +71,8 @@
               <img
                 :src="btnClick[index] ? buttonSel : buttonNor"
                 alt="选择按钮"
-                style="width: 100%; height: 100%"
+                style="width: 100%; height: 100%; left: 0; top: 0"
+                class="absolute"
               />
               <span
                 class="absolute btn-text"

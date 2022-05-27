@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import ScreenWithWavingPoints from "../views/ScreenWithWavingPoints.vue";
+import exportDocx from "../views/exportDocx";
 
 Vue.use(VueRouter);
 
@@ -9,6 +10,11 @@ const routes = [
     path: "/",
     name: "ScreenWithWavingPoints",
     component: ScreenWithWavingPoints,
+  },
+  {
+    path: "/exportDocx",
+    name: "exportDocx",
+    component: exportDocx,
   },
   // {
   //   path: "/about",
